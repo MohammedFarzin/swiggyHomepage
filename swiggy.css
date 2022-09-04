@@ -1,0 +1,507 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: white;
+}
+
+.header-section{
+    height: 500px;
+}
+
+.left-section{
+    float: left;
+    width: 55%;
+    height: 100%;
+}
+
+.right-section{
+    float: right;
+    width: 80%;
+    height: 100%;
+    
+}
+
+.logo-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:100%;
+    margin-top: 40px;
+    height:100px;
+}
+.logo{
+    width: 200px;
+    height: 60px;
+}
+
+.login-section{
+    width:60%;
+    display: flex;
+    justify-content: right;
+}
+
+.login{
+    border:0;
+    background-color: white;
+    padding:10px 30px;
+    color:black;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.signup{
+    background-color: black;
+    color: white;
+    border:none;
+    font-weight: bold;
+    font-size: 15px;
+    padding:10px 27px;
+    margin-right: 50px;
+}
+
+.heading{
+    color:black;
+    margin-top:45px;
+    margin-bottom:0;
+    font-size: 40px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+
+}
+
+.sub-heading{
+    color:gray;
+    margin-top: 6px;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+
+.search-section{
+    display: flex;
+    margin-top: 45px;
+}
+
+.search-box{
+    border: 1px solid #FC8019;
+    padding: 20px ;
+    font-size: 15px;
+    padding-right: 156px;
+    font-weight: 600;
+}
+
+
+.locateme{
+    
+    height:100%;
+    margin-left: -5px;
+    border: 1px solid #FC8019;
+    color:gray;
+    text-align: center;
+    font-size: 15px;
+    background-color: white;
+    /* border-color: red; */
+    border-left: none;
+    padding-right: 15px;
+    padding-left: 15px;
+    font-weight: 600;
+    
+
+    
+}
+
+.food{
+    width: 20%;
+    border:none;
+    outline: none;
+    background-color: #FC8019;
+    color:white;
+    font-weight: 900;
+    letter-spacing: 2px;
+    font-size: 15px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif
+}
+
+.popular-cities{
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    font-size: 16px;
+    margin-top: 20px;
+    color: #A9ABB2;
+    
+    margin-bottom: 20px;
+}
+
+.city-row{
+    display: flex;
+    flex-direction: row;
+}
+
+.one{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    padding-right: 20px;
+    font-weight: bold;
+    color: #686B78;
+    margin: 0;
+}
+
+.two{
+    font-size: 17px;
+    letter-spacing: 0.5px;
+    padding-right: 20px;
+    color: #93959F;
+    margin: 0;
+}
+
+.right-float-section{
+    float: right;
+    width: 45%;
+    height: 550px;
+}
+
+.right-section-image{
+    width: 100%;
+    height: 100%;
+    
+}
+.second-section{
+    margin-top: 50px;
+    height: 400px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    background-color: #2B1E16;
+    height: 100%;
+}
+
+.block{
+    width: 27%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.img1{
+    margin-left: -170px;
+    margin-bottom: 50px;
+    width: 30%;
+    height: 50%;
+}
+
+.img2{
+    margin-left: 0px;
+    margin-bottom: 50px;
+    width: 30%;
+    height: 50%;
+}
+
+.img3{
+    margin-left: 150px;
+    margin-bottom: 50px;
+    width: 35%;
+    height: 50%;
+}
+
+.para1{
+    margin-top: -4px;
+    margin-left: -150px;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0px;
+}
+
+.para2{
+    margin-top: -4px;
+    margin-left: 0px;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0px;
+}
+
+.para3{
+    margin-top: -4px;
+    margin-left: 150px;
+    color: white;
+    font-weight: 900;
+    font-size: large;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    letter-spacing: 0px;
+}
+
+.sub-para1{
+    color: #c8b4a9;
+    margin-top: -4px;
+    margin-left: -150px;
+    font-size: 15px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    letter-spacing: .5px;
+    
+}
+
+.sub-para2{
+    color: #c8b4a9;
+    margin-top: -4px;
+    margin-left: 40px;
+    font-size: 15px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    letter-spacing: .5px;
+}
+
+.sub-para3{
+    color: #c8b4a9;
+    margin-top: -4px;
+    margin-left: 160px;
+    font-size: 15px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    letter-spacing: .5px;
+}
+
+
+.third-section{
+    width: 100%;
+    height: 500px;
+    
+}
+
+.content{
+    float: left;
+    width:50%;
+    height: 430px;;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.quote{
+    float: right;
+    height:50%; 
+    width:50%;
+}
+
+.store-image1{
+    height: 54px;
+    width: 181px;
+}
+
+.store-image2{
+    height: 54px;
+    width: 181px;
+}
+
+
+.phone-image-section{
+    float: right;
+    width: 50%;
+    height: 100%;
+    
+}
+
+
+
+
+.phone-image1{
+    width: 384px;
+    height: 489px;
+}
+
+.phone-image2{
+    width: 384px;
+    height: 489px;
+    margin-top: -410px;
+    margin-left: 355px;
+}
+
+
+.footer{
+    margin-top: 72px;
+    height: 1300px;
+    background-color: black;
+}
+
+ul{
+    color: white;
+    padding-left: 0%;
+    text-decoration: none;
+}
+
+h4{
+    color: white;
+}
+
+
+
+/* .h-head{
+    color: #808080;
+    padding-left: 0;
+    margin-left: 0;
+} */
+
+/* .store-image1-footer{
+    height: 54px;
+    width: 181px;
+    margin-top: 50px;
+}
+
+.store-image2-footer{
+    height: 54px;
+    width: 181px;
+    margin-top: 50px ;
+}
+
+
+
+.footer-logo-section{
+    width:100%; 
+    margin-left: 130px;
+    display: flex;
+}
+
+.footer-logo{
+    width: 142px;
+    height: 42px;
+}
+
+.footer-swiggy-text{
+    color: white;
+    margin-left: 500px;
+    font-weight: 200;
+    font-size: 18px;
+} */
+
+
+
+.footer-row{
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+}
+
+.first-row{
+    margin: 40px;
+    margin-left: 150px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    text-decoration: none;
+}
+.second-row{
+    margin-top: 40px ;
+    margin-left: 130px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    
+    width:20%
+}
+.third-row{
+    margin-top: 40px ;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    
+}
+
+.h-head{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.store-image2-footer{
+    height: 60px;
+    width: 200px;
+    margin-top: 80px ;
+}
+
+.store-image1-footer{
+    height: 60px;
+    width: 200px;
+    margin-top: 30px ;
+}
+
+.we-deliver{
+    margin-top: 60px;
+    padding-left: 150px;
+    margin-bottom: 40px;
+    color: gray;
+    font-size: 15px;
+    font-weight: 600;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    
+}
+
+hr{
+    width: 80%;
+}
+
+.delivery-section{
+    display: flex;
+}
+.delivery1{
+    margin-top: -10px;
+    margin-left: 160px;
+    margin-bottom: 40px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    text-decoration: none;
+
+}
+.delivery2{
+    margin-top: -10PX ;
+    margin-left: 230px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+    
+    width:20%
+
+}
+.delivery3{
+    margin-top: -10px ;
+    margin-left: 40px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+
+}
+.delivery4{
+    margin-top: -10px ;
+    margin-left: 220px;
+    font-family: ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.footer-end{
+    margin: 20px 150px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.footer-logo-image{
+    width: 142px;
+    height: 42px;
+}
+
+.copyright{
+    height: 42px;
+    width: 842px;
+}
+
+.copyright-text{
+    font-size: 20px;
+    color: white;
+    margin-left: 350px;
+    margin-top: 10px;
+    font-family:  ProximaNova,arial,Helvetica Neue,sans-serif;
+}
+
+.social-media{
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    width: 120px;
+    height: 100%;
+}
+
